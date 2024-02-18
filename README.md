@@ -23,3 +23,10 @@ Feel free to use this repository as a basis for solving these problems. You can 
 2. Given the two datasets, calculate the total number of visits per provider per month. The resulting set should contain the provider's ID, the month, and total number of visits. Output the result set in json.
 
 Please provide your code in some format so we can attempt to run it during evaluation. Examples include github/gitlab links, .scala files, zipped folders containing the modified source project.
+
+
+## To Generate the Output please run the script src/main/scala/com/availity/spark/provider/ProviderRoster.scala
+it will generate the result in output folder like below.
+output/visits_per_provider_per_month
+output/visits_per_provider_per_specialty
+
